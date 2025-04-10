@@ -23,3 +23,17 @@ const user: User = {
   age: 42,
   isActive: true,
 };
+
+
+type Score = number | string
+const myScore1: Score = '10'
+
+let x: number = JSON.parse('6')
+let str: string = JSON.parse('hello')
+
+let isOdd: boolean
+if(x % 2 === 0){
+  isOdd = false
+}else {
+  isOdd = true
+}
